@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+  }
+
+  h1 {
+      color: greay;
+      text-align: center;
+ }
+   
+ h2 {
+    color: #FFCDDB;
+     text-align: center; 
+ }
+
+ h3{
+    color: #4d4c49;
+     text-align: center;   
+ }
+
+ p{
+    color:#636161;
+    text-align: center;
+}  
