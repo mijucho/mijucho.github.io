@@ -25,6 +25,10 @@ body {
       
   }
 
+  container row center {
+      background-color: mediumpurple;
+      display: block;
+  }
  .btn {
       color: white;
       font-size: 1.3em;
@@ -39,7 +43,7 @@ body {
 
 
  h2 {
-    color: #F0C6CF;
+    color: rgb(245, 216, 223);
      text-align: center; 
  }
 
@@ -51,5 +55,6 @@ body {
  p{
     color:#636161;
     text-align: center;
+    display: bolck;
 }  
  
