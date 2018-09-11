@@ -29,6 +29,7 @@ body {
       background-color: mediumpurple;
       display: block;
   }
+
  .btn {
       color: white;
       font-size: 1.3em;
@@ -37,7 +38,8 @@ body {
       padding: 10px;
       text-decoration: none;
       line-height: 38px;
-     
+      margin-bottom: 10px;
+      margin-right: 3px;
   }
   
 
