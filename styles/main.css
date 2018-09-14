@@ -1,14 +1,16 @@
 body {
-    background-color: rgb(179, 219, 243);
-    display: block;
-    margin: 20px auto;
-    padding: 0px 20px 20px 20px;
-    text-align: center;
    
+    text-align: center;
+    background-color: rgb(179, 219, 243);
     font-family: 'Muli', sans-serif;
   
   }
 
+  .container {
+      display: block;
+      margin: 20px auto;
+      padding: 0px 20px 20px 20px;
+  }
 
   h1 {
       color:white;
@@ -59,4 +61,18 @@ body {
     text-align: center;
     display: bolck;
 }  
- 
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+ /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    wireframe-row {
+        height: 250px;
+        width: 250px;
+        flex: 50%;
+        background-color: lightsalmon
+    }
+
+    }
