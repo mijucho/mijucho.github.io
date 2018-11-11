@@ -1,4 +1,6 @@
-
+* {
+    text-decoration: none;
+}
 
 body {
   font-family: 'Muli', sans-serif;
@@ -6,10 +8,12 @@ body {
   }
 
 header {
-    background-color:rgb(199, 198, 198);
+    background-color:#fff;
     width: 100%;
-    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
+    border-bottom: 1px solid rgb(179, 176, 176);
   
 }
 
@@ -36,43 +40,45 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-   
     list-style: none;
     padding: 5px 16px;
 
 }
 
-li:hover { 
-    background-color: rgb(158, 158, 154);
-}
 header nav ul li a {
     font-family: muli;
-    font-size:25px;
+    font-size:18px;
     text-decoration: none;
     padding: 40px 20px;
     color: #333;
   
 }
 
+a:hover { 
+    color: rgb(158, 158, 154);
+}
+
+
 /*index*/
 .index-banner {
-    width: 100%;
-    height: 50vh;
-    background-image: url(img/welcity2.jpg);
+    width: 80%;
+    height: 95vh;
+    background-image: url(../img/welcity2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: 10px;
+    margin-top: 5px;
+   
 }
 
  h1 {
     font-family: muli;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     color: #fff;
     text-align: center;
-    text-shadow: 2px 2px 8px #111;
+    text-shadow: 2px 2px 20px #111;
     
 }
 
@@ -87,18 +93,53 @@ h2{
     line-height: 34px;
     
 }
+div {
+    display: block;
+}
+
+
+h3 {
+    outline: 1px solid black;
+    outline-offset: 0.5em;
+    margin: 2em;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+   
+}
+
+
 
 .article{
-text-align: center;
-justify-content: space-around;
-align-items: center;
-margin-top: 1em;
-padding: 1em;
-display: block;
+  
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
+    padding: 1em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
+
+p {
+    display: block;  
+}
+
+
 
 footer {
     font-size: 0.8em;
     margin: 6em 0 1em 0;
     text-align: center;
+    
 }
