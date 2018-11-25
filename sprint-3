@@ -1,0 +1,15 @@
+makeSandwichWith_______
+Get one slice of bread.
+ADD _____.
+Put a slice of bread on top.
+
+Function make SandwhichWith(filling){
+Get one slice of bread;
+Add filling;
+Put a slice of bread on top;
+}
+
+make SandwichWith -ham-
+makeSandwichWith('ham')
+
+consol.og('My Todos', todos)
